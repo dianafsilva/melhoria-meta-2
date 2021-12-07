@@ -1,0 +1,153 @@
+.comida {
+    margin-bottom: 10vh;
+    display: grid;
+}
+
+.comida h1 {
+    margin-bottom: 1vh;
+    text-align: center;
+    color: #e03616;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3vh;
+}
+
+main hr{
+    margin-bottom: 2vh;
+    background-color:#F7BA45;
+    border:0.1vw solid #F7BA45;
+    width: 110%;
+    margin-left: -5%;
+}
+
+.textoIntro {
+    margin-top: 1vh;
+    text-align: center;
+}
+
+.postDetails {
+    text-align: center;
+    margin-bottom: 4vh;
+}
+
+.foods{
+    display: flex;
+    width: 110%;
+    margin-left: -5%;
+    
+}
+.foodEsq {
+    
+    width: 62%;
+    
+}
+
+.foodDir {
+    position: relative;
+    width: 33%;
+    margin-left:5%;
+    
+}
+
+.imagemFood  img{
+    width: 100%;
+    margin-top: 10vh;
+}
+
+.imgComida {
+    object-fit: cover;
+    max-height: 450px;
+}
+
+.foodReceita {
+    margin-top: 10vh;
+}
+
+.cssTitulosReceita {
+    font-weight: 600;
+    color: #222;
+}
+
+.detalhesReceita {
+    margin-top: 2vh;
+    background-color: #FFCA48;
+    padding-top: 2vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 2vh;
+}
+
+.detalhesTempo{
+    width: 100%;
+    display: flex;
+    vertical-align: middle;
+    background-color: white;   
+}
+
+.tempoPrep{
+    width: 32%;
+    border-right: 0.15vw solid #CD524D;
+    text-align: center;
+    float: left;
+    margin: auto;
+}
+
+.tempoConfec{
+    width: 32%;
+    border-right: 0.15vw solid #CD524D;
+    text-align: center;
+    margin: auto;
+}
+
+.tempoTotal{
+    width: 32%;
+    text-align: center;
+    float: right;
+    margin: auto;
+}
+
+.subtitulo{
+    font-weight: bold;
+    padding-bottom: 1vh;
+}
+
+.ingredientesReceita {
+    margin-top: 2vh;
+    width: 40%;
+}
+
+.secHalf{
+    display:flex;    
+}
+
+.passosReceita {
+    margin-top: 2vh;
+    width: 60%;
+}
+
+.listaIngredientes{
+    margin-top: 1vh;
+}
+
+.apresentacao{
+    width: 100%;
+    margin-top: 10vh;
+    text-align: left;
+}
+
+.apresentacaoMarca{
+    display: inline-block;
+    background-color: #EBA790;
+    color: #770115;
+    text-align: left;
+    font-family: 'Lato', sans-serif ;
+    padding: 1rem;
+}
+
+.apresentacaoPrato{
+    margin-top: 2vh;
+    text-align: left;
+    font-family: 'Lato', sans-serif ;
+    padding: 1rem;
+}

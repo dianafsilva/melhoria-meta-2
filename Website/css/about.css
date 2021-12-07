@@ -1,0 +1,191 @@
+.top {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 99%;
+}
+
+.top img {
+    width: 60%;
+    border: 0.2vw solid #e03616;
+}
+
+.about {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 40%;
+    padding-left: 5vw;
+}
+
+.about h1 {
+    text-align: left;
+    margin-bottom: 2vh;
+}
+
+.about p {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+}
+
+main hr {
+    margin-left: auto;
+    margin-right: auto;
+    width: 99%;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    border: 0.1vw solid #ffb20f;
+    background-color: #ffb20f;
+}
+
+.comments {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: auto;
+    margin-top: 15vh;
+    margin-bottom: 25vh;
+    text-align: center;
+    color: #222;
+}
+
+.discuss {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: #ffb20f;
+    color: #222;
+    text-align: center;
+    margin-top: 5vh;
+    font-weight: 600;
+}
+
+.discuss hr {
+    background-color: black;
+    border: 0.1vw black solid;
+    width: 99.75%;
+    margin-left: 0;
+
+}
+
+.discuss h2 {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -8vh;
+    margin-bottom: 1vh;
+    background-color: white;
+    border: 0.1vw black solid;
+    font-size: 1.2vw;
+    width: 12vw;
+
+}
+
+
+/* Style inputs, select elements and textareas */
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+/* Style the submit button */
+.containerForm input[type=submit] {
+    margin-top: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: #222;
+    color: #e03616;
+    padding: 12px 20px;
+    border: 2px solid #222;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* Style the submit button */
+.containerForm input[type=submit]:hover {
+    background: linear-gradient(-45deg, #e03616, #ffb20f);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+    color: #222;
+    font-weight: 600;
+    padding: 12px 20px;
+    border: 2px solid #222;
+    transition: 0.6s ease;
+    border-radius: 4px;
+}
+
+/* Style the container */
+.containerForm {
+    border-radius: 5px;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+    width: 15%;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+    width: 85%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1vh;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+    .col-25,
+    .col-75,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}

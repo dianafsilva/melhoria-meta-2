@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Easy Escapes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/recipes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script/script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="nav">
+        
+            <div class="esq">
+                <div id="menu-hamburguer" onclick="changeImg()">
+                    <a href="#" id="divmenu"><img class="hmbgIcon" src="data/hi1.svg" id="imgbtn" alt="burger" /></a>
+                </div>
+                <div id="menuClasses">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        
+                        <li><a href="#">RECEITAS</a></li>
+                        
+                        <li><a href="#">CARNE</a></li>
+                       
+                        <li><a href="#">PEIXE</a></li>
+                        
+                        <li><a href="#">VEGETARIANO</a></li>
+                       
+                        <li><a href="#">SOBREMESAS</a></li>
+                        
+                        <li><a href="#">SOBRE</a></li>
+                    </ul>
+                </div>
+               
+            </div>
+            <a class="titulo" href="index.html">EASY ESCAPES</a>
+            <div id="dir">
+                <a class="nav-link" href="recipes.html">RECEITAS</a>
+                <a class="nav-link" href="about.html">SOBRE</a>
+                <a class="search" onclick="moveSearch()"><span class="fa fa-search" ></span></a>
+                
+            </div>
+            <div id="searchInput">
+                <input type="text" id="searches" name="search" placeholder="SEARCH">
+            </div>
+        </div>
+        <div class="barra">
+        </div>
+        <div class="espacoLinha">
+            
+        </div>
+
+    </header>
+
+
+    <main>
+        <div class="recipes">
+            <div class="descricaoPagina">
+                <h1>RECEITAS</h1>
+                <br>
+                <p> Aqui poderão encontrar as mais variadas receitas</p>
+            </div>
+            <hr>
+            <br>
+            <div class="gallery">
+                <div class="gallery-image">
+                    <div class="img-box">
+                        <a href="food.html">
+                            <img src="data/food.jpg" alt="food" class="gallery_image">
+                            <div class="transparent-box">
+                                <div class="caption">
+                                    <p>Hambúrguer</p>
+                                    <p class="opacidadeBaixa">Dificuldade Baixa . €</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="img-box">
+                        <a href="#">
+                            <img src="data/food1.jpg" alt="food" class="gallery_image">
+                            <div class="transparent-box">
+                                <div class="caption">
+                                    <p>Mastigada de Camarão</p>
+                                    <p class="opacidadeBaixa">Dificuldade Alta . €€</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="img-box">
+                        <a href="#">
+                            <img src="data/food3.jpg" alt="food" class="gallery_image">
+                            <div class="transparent-box">
+                                <div class="caption">
+                                    <p>Carbonara de Frango</p>
+                                    <p class="opacidadeBaixa">Dificuldade Média . €</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="img-box">
+                        <a href="#">
+                            <img src="data/food.jpg" alt="food" class="gallery_image">
+                            <div class="transparent-box">
+                                <div class="caption">
+                                    <p>Hamburguer</p>
+                                    <p class="opacidadeBaixa">Dificuldade Baixa . €</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="img-box">
+                        <a href="#">
+                            <img src="data/food1.jpg" alt="food" class="gallery_image">
+                            <div class="transparent-box">
+                                <div class="caption">
+                                    <p>Mastigada de Camarão</p>
+                                    <p class="opacidadeBaixa">Dificuldade Alta . €€</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="img-box">
+                        <a href="#">
+                            <img src="data/food3.jpg" alt="food" class="gallery_image">
+                            <div class="transparent-box">
+                                <div class="caption">
+                                    <p>Carbonara de Frango</p>
+                                    <p class="opacidadeBaixa">Dificuldade Média . €</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+
+    <footer>
+        <div class="footerContent">
+            <div class="linkGrid">
+                <div class="coluna">
+                    <div class="marca">
+                        <div class="logoFooter">
+                            <h3>EASY ESCAPES</h3>
+                        </div>
+                        <div class="sloganFooter">De estudantes para estudantes.</div>
+                    </div>
+                    <div class="coluna">
+                    </div>
+                </div>
+                <div class="coluna">
+                    <div class="text">
+                        <h3>LINKS ÚTEIS</h3>
+                        <a class="linkFooter" href="">Sobre</a>
+                        <a class="linkFooter" href="">Contactos</a>
+                    </div>
+                </div>
+                <div class="coluna">
+                    <div class="redes">
+                        <a href="instagram.com"><img src="data/insta1.png" alt="insta" /></a>
+                        <a href="pinterest.com"><img src="data/pint1.png" alt="pinterest" /></a>
+                        <a href="gmail.com"><img src="data/mail1.png" alt="email" /></a>
+                    </div>
+                </div>
+            </div>
+            <div class="barra"></div>
+            <div class="copyright">
+                Todos os direitos reservados. &copy; <a class="linkFooter" href="">Copyright 2021</a>
+            </div>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>

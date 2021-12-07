@@ -1,0 +1,107 @@
+.recipes{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+    text-align: center;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25vh;
+}
+
+.recipes hr{
+width: 100%;
+margin-top: 1vw;
+background-color:#F7BA45;
+border:0.1vw solid #F7BA45;
+
+}
+
+.gallery {
+    margin: auto;
+    width: 100%;
+}
+
+/*CÓDIGO GALERIA*/
+.gallery-image {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.gallery-image img {
+    height: 250px;
+    width: 350px;
+    object-fit: cover;
+    object-position: center;
+    transform: scale(1.0);
+    transition: transform 0.4s ease;
+}
+
+.img-box {
+    box-sizing: content-box;
+    margin: 0.5%;
+    height: 250px;
+    width: 24%;
+    overflow: hidden;
+    display: inline-block;
+    color: white;
+    position: relative;
+    background-color: white;
+}
+
+.caption {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    opacity: 0.0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.transparent-box {
+    height: 250px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: background-color 0.3s ease;
+}
+
+.img-box:hover img {
+    transform: scale(1.1);
+}
+
+.img-box:hover .transparent-box {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.img-box:hover .caption {
+    transform: translateY(-20px);
+    opacity: 1.0;
+}
+
+.img-box:hover {
+    cursor: pointer;
+}
+
+.caption > p:nth-child(2) {
+    font-size: 0.8em;
+}
+
+.opacidadeBaixa {
+    opacity: 0.5;
+}
+
+
+
+/* FIM DO CÓDIGO*/
